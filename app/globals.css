@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #eef1f8;
+  --foreground: #20273b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), "Segoe UI", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
