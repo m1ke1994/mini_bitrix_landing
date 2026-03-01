@@ -9,18 +9,18 @@ export const homepageData = {
     { label: "Контакты", href: "#contacts" },
   ],
   headerCta: { label: "Открыть приложение", href: "#contacts" },
-hero: {
-  titleLines: [
-    "Аналитика сайта,",
-    "уведомления о заявках",
-    "в Telegram и SEO-аудит —",
-    "в одном сервисе",
-  ],
-  description:
-    "TrackNode фиксирует новые заявки и лиды с сайта и мгновенно отправляет уведомления в Telegram. Дополнительно показывает аналитику посещений и источников трафика и помогает находить SEO и технические ошибки.",
-  primaryCta: { label: "Открыть приложение", href: "#contacts" },
-  secondaryCta: { label: "Подключить сайт", href: "#how" },
-},
+  hero: {
+    titleLines: [
+      "Аналитика сайта,",
+      "уведомления о заявках",
+      "в Telegram и SEO-аудит —",
+      "в одном сервисе",
+    ],
+    description:
+      "TrackNode фиксирует новые заявки и лиды с сайта и мгновенно отправляет уведомления в Telegram. Дополнительно показывает аналитику посещений и источников трафика и помогает находить SEO и технические ошибки.",
+    primaryCta: { label: "Открыть приложение", href: "#contacts" },
+    secondaryCta: { label: "Подключить сайт", href: "#how" },
+  },
   trust: {
     title: "Используют для контроля заявок и роста конверсии",
     items: ["Company", "Brand", "Studio", "Agency", "Startup", "Business", "Business"],
