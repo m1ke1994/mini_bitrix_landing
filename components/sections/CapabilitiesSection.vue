@@ -1,5 +1,5 @@
 <template>
-  <section id="capabilities" class="relative overflow-hidden py-16 sm:py-20 lg:py-24">
+  <section id="capabilities" class="relative overflow-hidden py-16 scroll-mt-28 sm:py-20 lg:py-24 lg:scroll-mt-32">
     <div id="features" class="pointer-events-none absolute top-0 h-0 w-0" aria-hidden="true" />
     <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#f8fafe] via-[#edf3fd] to-[#e9eef9]" />
     <div

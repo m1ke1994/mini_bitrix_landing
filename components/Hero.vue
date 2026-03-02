@@ -13,12 +13,16 @@
         <div class="mt-8 flex flex-wrap gap-3">
           <a
             :href="hero.primaryCta.href"
+            :target="hero.primaryCta.target || null"
+            :rel="hero.primaryCta.rel || null"
             class="inline-flex min-h-12 items-center justify-center rounded-[12px] bg-gradient-to-r from-[#4aa3ff] via-[#3882ff] to-[#2552f4] px-6 text-[18px] font-semibold text-white shadow-[0_12px_22px_rgba(47,107,255,0.35)] transition hover:brightness-105"
           >
             {{ hero.primaryCta.label }}
           </a>
           <a
             :href="hero.secondaryCta.href"
+            :target="hero.secondaryCta.target || null"
+            :rel="hero.secondaryCta.rel || null"
             class="inline-flex min-h-12 items-center justify-center gap-2 rounded-[12px] border border-[#d5ddeb] bg-white/95 px-6 text-[18px] font-semibold text-[#374056] shadow-[0_8px_18px_rgba(34,50,86,0.08)] transition hover:border-[#c5d0e4]"
           >
             {{ hero.secondaryCta.label }}

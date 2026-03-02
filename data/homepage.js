@@ -1,14 +1,14 @@
 export const homepageData = {
   brand: { name: "TrackNode" },
   nav: [
-    { label: "Возможности", href: "#features" },
+    { label: "Возможности", href: "#capabilities" },
     { label: "Как работает", href: "#how" },
     { label: "Тарифы", href: "#pricing" },
     { label: "Отзывы", href: "#reviews" },
     { label: "FAQ", href: "#faq" },
-    { label: "Контакты", href: "#contacts" },
+    { label: "Контакты", href: "#footer-contacts" },
   ],
-  headerCta: { label: "Открыть приложение", href: "#contacts" },
+  headerCta: { label: "Войти", href: "https://tracknot.ru", target: "_blank", rel: "noopener" },
   hero: {
     titleLines: [
       "Аналитика сайта,",
@@ -18,7 +18,7 @@ export const homepageData = {
     ],
     description:
       "TrackNode фиксирует новые заявки и лиды с сайта и мгновенно отправляет уведомления в Telegram. Дополнительно показывает аналитику посещений и источников трафика и помогает находить SEO и технические ошибки.",
-    primaryCta: { label: "Открыть приложение", href: "#contacts" },
+    primaryCta: { label: "Зарегистрироваться", href: "https://tracknot.ru", target: "_blank", rel: "noopener" },
     secondaryCta: { label: "Подключить сайт", href: "#how" },
   },
   trust: {
